@@ -25,7 +25,7 @@ Welcome to my personal developer portfolio website!
 ---
 
 ## Live Preview 
->> https://github.com/satishjadav01/Portfolio
+>> https://leafy-crepe-92d6ee.netlify.app/
 
 ## 🛠 Tech Stack
 
