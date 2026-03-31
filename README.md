@@ -1,7 +1,7 @@
 
 
 Welcome to my personal developer portfolio website! 
-
+```
 ## 📁 Project Structure
 📦 portfolio-website/
 ├── index.html
@@ -11,18 +11,21 @@ Welcome to my personal developer portfolio website!
 │ ├── images/
 │ └── icons/
 └── README.md
-
----
+```
 
 ## ✨ Features
 
 -  About Me Section
--  Skills Display (HTML, CSS, JavaScript, React, Node.js, MongoDB)
+-  Skills Display (HTML, CSS, JavaScript, React, python,sql)
+-  Exprince with Qspiders as intern
 -  Projects Showcase
 -  Contact Form with email
 -  Responsive Design (Mobile + Desktop)
 -  Clean & Modern UI/UX
 ---
+
+## Live Preview 
+>> https://github.com/satishjadav01/Portfolio
 
 ## 🛠 Tech Stack
 
