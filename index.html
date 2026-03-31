@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Satish Jadav | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-   <script src="script.js"></script> 
+  <link rel="icon" type="image/x-icon" href="./icons8-portfolio-50.png" />
 </head>
-<link rel="icon" type="image/x-icon" href="./icons8-portfolio-50.png" />
 
 <body>
 
@@ -15,14 +15,15 @@
   <header id="header">
     <div class="container">
       <nav>
-        <a href="#" class="logo"></a>
+        <a href="#home" class="logo">Satish Jadav</a>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <div class="ham-menu"><span>☰</span></div>
+        <div class="ham-menu">☰</div>
       </nav>
     </div>
   </header>
@@ -31,8 +32,13 @@
   <section class="hero" id="home">
     <div class="container">
       <div class="hero-content">
-        <h1 class="animate">Hi, I'm <span style="color: var(--primary);">Satish Jadav</span></h1>
-        <p class="animate delay-1">Full Stack Developer specializing in building exceptional digital experiences.</p>
+        <h1 class="animate">Hi, I'm <span class="highlight">Satish Jadav</span></h1>
+        <p class="animate delay-1">Enthusiastic and detail-oriented Computer Engineering graduate with a strong focus on
+          Python full-stack and web
+          development. Passionate about building real-world applications and eager to apply technical skills and
+          creative
+          problem-solving in a progressive organization.
+        </p>
         <div class="animate delay-2">
           <a href="#projects" class="btn">View My Work</a>
           <a href="#contact" class="btn btn-outline">Contact Me</a>
@@ -46,7 +52,7 @@
     <div class="container">
       <div class="section-title">
         <h2>About Me</h2>
-        <p>Get to know more about me and my journey in web development.</p>
+        <p>Get to know more about me and my journey in Python Fullstack .</p>
       </div>
       <div class="about-content">
         <div class="about-text">
@@ -55,19 +61,50 @@
           <div class="about-skills">
             <h3>My Skills</h3>
             <div class="skills-list">
-              <span class="skill">HTML</span>
-              <span class="skill">CSS</span>
-              <span class="skill">JavaScript</span>
-              <span class="skill">React</span>
-              <span class="skill">Node.js</span>
-              <span class="skill">MongoDB</span>
-              <span class="skill">Express</span>
-              <span class="skill">Git</span>
+              <span class="skill">Languages: Python</span> <br>
+              <span class="skill">Web Technologies: HTML, CSS, Tailwindcss,JavaScript,React js
+              </span> <br>
+              <span class="skill">Databases:SQL</span> <br>
+              <span class="skill">DevOps Tools: Git,GitHub
+              </span> <br>
+              Others : Basics of AI/ML
             </div>
           </div>
         </div>
         <div class="about-img">
           <!-- <img src="https://storage.googleapis.com/workspace...png" alt="Alex Carter Photo" /> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-title">
+        <h2>My Experience</h2>
+        <p>My professional journey and internships.</p>
+      </div>
+      <div class="experience-container">
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3>PythonFullstack Developer Intern</h3>
+            <span class="experience-company">QSpiders</span>
+            <span class="experience-duration">Present</span>
+          </div>
+          <div class="experience-description">
+            <p>Currently building real-world skills in Python Full Stack Development with hands-on implementation.</p>
+            <ul class="experience-highlights">
+              <li>Learning version control (Git) and basic DevOps workflows.</li>
+              <li>Developing responsive user interfaces using HTML, CSS, Tailwind CSS, and JavaScript..</li>
+              <li>Writing backend logic in Python, focusing on OOP concepts and data handling.
+              </li>
+              <li>Working with SQL for database operations and full-stack integration.
+              </li>
+              <li>Exploring basic AI/ML concepts and their integration into applications
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -81,7 +118,55 @@
         <p>Here are some of my recent projects that showcase my skills...</p>
       </div>
       <div class="projects-grid">
-        <!-- Project Cards here... -->
+        <div class="project-card">
+          <div class="project-img">
+            <img src="./assets/image.png" alt="Expense Tracker" />
+          </div>
+          <div class="project-info">
+            <h3>Expense Tracker</h3>
+            <p>A responsive expense tracking app for adding, editing, and visualizing monthly expenses.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Streamlit (web apps)</span>
+              <span class="project-tag">SQLite</span>
+              <span class="project-tag">github,git</span>
+              <span class="project-tag">pandas, plotly, openpyxl, reportlab, bcrypt, Pillow</span>
+            </div>
+            <a href="https://github.com/satishjadav01/Expense-tracker-" target="_blank" class="btn">View on GitHub</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="./assets/71SM2oCS2+L.png" alt="Time Calculate" />
+          </div>
+          <div class="project-info">
+            <h3>Time Calculate</h3>
+            <p>A utility app to calculate duration between timestamps and manage time logs efficiently.</p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">Utilities</span>
+            </div>
+            <a href="https://github.com/satishjadav01/Time_Calculator" target="_blank" class="btn">View on GitHub</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="./assets/book.png" alt="Library Management" />
+          </div>
+          <div class="project-info">
+            <h3>Library Management</h3>
+            <p>A robust library management system for managing books, members, and issue returns.</p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">CRUD</span>
+            </div>
+            <a href="https://github.com/satishjadav01/Library_Management" target="_blank" class="btn">View on GitHub</a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -97,14 +182,21 @@
         <div class="contact-info">
           <h3>Contact Information</h3>
           <div class="contact-details">
-            <div class="contact-item"><div class="contact-icon">📧</div><span>satishjadav700@gmail.com</span></div>
-            <div class="contact-item"><div class="contact-icon">📱</div><span>+91 9723818557</span></div>
-            <div class="contact-item"><div class="contact-icon">📍</div><span>Una,Gujrat</span></div>
+            <div class="contact-item">
+              <div class="contact-icon">📧</div><span>satishjadav700@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📱</div><span>+91 9723818557</span>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">📍</div><span>Ahemdabad,Gujrat</span>
+            </div>
           </div>
           <h3>Follow Me</h3>
           <div class="social-links">
-            <a href="https://github.com/" class="social-link">GitHub</a>
-            <a href="https://www.linkedin.com/notifications/?filter=all" class="social-link">LinkedIn</a>
+            <a href="https://github.com/satishjadav01" class="social-link">GitHub</a>
+            <a href="https://www.linkedin.com/in/satish-jadav-7716562a1?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              class="social-link">LinkedIn</a>
           </div>
         </div>
         <div class="contact-form">
@@ -136,10 +228,13 @@
   <footer>
     <div class="container">
       <div class="footer-content">
-        <p>© 2025 Satish Jadav. All rights reserved.</p> 
+        <p>© 2025 Satish Jadav. All rights reserved.</p>
       </div>
     </div>
   </footer>
-   
+
+  <script src="script.js"></script>
+
 </body>
+
 </html>
